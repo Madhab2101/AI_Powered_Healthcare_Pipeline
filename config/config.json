@@ -1,0 +1,8 @@
+{
+  "kafka_broker": "localhost:9092",
+  "topics": {
+    "raw": "raw-patient",
+    "predictions": "predictions"
+  },
+  "output_path": "D:/BDA/Predictive_Healthcare_Pipeline/output/"
+}

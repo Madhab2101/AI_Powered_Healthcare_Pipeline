@@ -1,0 +1,10 @@
+kafka-python
+pyspark==4.0.1
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+streamlit
+requests
+plotly

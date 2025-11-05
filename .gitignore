@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Spark / Kafka Data
+output/
+checkpoints/
+kafka-logs/
+logs/
+
+# Model / Large files
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
