@@ -186,8 +186,8 @@ A real-time Streamlit dashboard showing:
 * High-risk patient alerts
 * Auto-refresh every 5 seconds
 
-🖼️ Add a screenshot here:
-`assets/screenshots/dashboard_live.png`
+
+![alt text](assests/screenshots/dashboard_live.png)
 
 ---
 
