@@ -26,7 +26,7 @@ It integrates a **streaming data pipeline** that ingests, processes, and predict
                         ↓
                 [Streamlit Real-Time Dashboard]
 ```
-
+![alt text](assests/screenshots/system_architecture.jpg)
 
 ---
 
@@ -80,6 +80,14 @@ AI_Powered_Healthcare_Pipeline/
 ├── scripts/
 │   ├── run_pipeline.bat
 │   ├── stop_pipeline.bat
+│
+│
+├── assests/
+│   └── screenshots/
+│       ├── dashboard_live_1.png
+│       ├── dashboard_live_2.png
+│       ├── dashboard_live_3.png
+│       ├── system_architecture.jpg
 │
 ├── output/
 │   └── cleaned_data/
@@ -187,7 +195,11 @@ A real-time Streamlit dashboard showing:
 * Auto-refresh every 5 seconds
 
 
-![alt text](assests/screenshots/dashboard_live.png)
+![alt text](assests/screenshots/dashboard_live_1.png)
+
+![alt text](assests/screenshots/dashboard_live_2.png)
+
+![alt text](assests/screenshots/dashboard_live_3.png)
 
 ---
 

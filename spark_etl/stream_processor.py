@@ -13,7 +13,7 @@ spark.sparkContext.setLogLevel("WARN")
 
 KAFKA_BROKER = "localhost:9092"
 KAFKA_TOPIC = "raw-patient"
-OUTPUT_PATH = "D:/BDA/AI_Powered_Healthcare_Pipelinene/output/cleaned_data"
+OUTPUT_PATH = "D:/BDA/AI_Powered_Healthcare_Pipeline/output/cleaned_data"
 
 schema = StructType([
     StructField("patient_id", StringType()),
@@ -38,7 +38,7 @@ parsed_stream = json_stream.select(from_json(col("json_str"), schema).alias("dat
 query = (parsed_stream.writeStream
          .format("parquet")
          .option("path", OUTPUT_PATH)
-         .option("checkpointLocation", "D:/BDA/AI_Powered_Healthcare_Pipelinene/output/checkpoints")
+         .option("checkpointLocation", "D:/BDA/AI_Powered_Healthcare_Pipeline/output/checkpoints")
          .outputMode("append")
          .start())
 

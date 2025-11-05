@@ -19,7 +19,7 @@ This dashboard visualizes **real-time AI-driven health risk predictions**
 using **Kafka, Spark, FastAPI**, and **Streamlit**.
 """)
 
-DATA_PATH = "D:/BDA/AI_Powered_Healthcare_Pipelinene/output/cleaned_data"
+DATA_PATH = "D:/BDA/AI_Powered_Healthcare_Pipeline/output/cleaned_data"
 FASTAPI_URL = "http://127.0.0.1:8000/predict_batch"
 REFRESH_INTERVAL = 5  # seconds
 
